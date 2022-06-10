@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/fizzy-react-photo-app/static/css/main.de94d79f.chunk.css",
+    "main.js": "/fizzy-react-photo-app/static/js/main.bba95b0b.chunk.js",
+    "main.js.map": "/fizzy-react-photo-app/static/js/main.bba95b0b.chunk.js.map",
+    "runtime-main.js": "/fizzy-react-photo-app/static/js/runtime-main.57a1102e.js",
+    "runtime-main.js.map": "/fizzy-react-photo-app/static/js/runtime-main.57a1102e.js.map",
+    "static/js/2.8ae2ded3.chunk.js": "/fizzy-react-photo-app/static/js/2.8ae2ded3.chunk.js",
+    "static/js/2.8ae2ded3.chunk.js.map": "/fizzy-react-photo-app/static/js/2.8ae2ded3.chunk.js.map",
+    "static/js/3.db53819c.chunk.js": "/fizzy-react-photo-app/static/js/3.db53819c.chunk.js",
+    "static/js/3.db53819c.chunk.js.map": "/fizzy-react-photo-app/static/js/3.db53819c.chunk.js.map",
+    "index.html": "/fizzy-react-photo-app/index.html",
+    "static/css/main.de94d79f.chunk.css.map": "/fizzy-react-photo-app/static/css/main.de94d79f.chunk.css.map",
+    "static/js/2.8ae2ded3.chunk.js.LICENSE.txt": "/fizzy-react-photo-app/static/js/2.8ae2ded3.chunk.js.LICENSE.txt",
+    "static/media/0.jpg": "/fizzy-react-photo-app/static/media/0.b18c130d.jpg",
+    "static/media/1.jpg": "/fizzy-react-photo-app/static/media/1.ffe481f4.jpg",
+    "static/media/2.jpg": "/fizzy-react-photo-app/static/media/2.da4d6061.jpg",
+    "static/media/3.jpg": "/fizzy-react-photo-app/static/media/3.dd376ef9.jpg",
+    "static/media/4.jpg": "/fizzy-react-photo-app/static/media/4.ed3b1a69.jpg",
+    "static/media/cover-image.533ae8f6.jpg": "/fizzy-react-photo-app/static/media/cover-image.533ae8f6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57a1102e.js",
+    "static/js/2.8ae2ded3.chunk.js",
+    "static/css/main.de94d79f.chunk.css",
+    "static/js/main.bba95b0b.chunk.js"
+  ]
+}
