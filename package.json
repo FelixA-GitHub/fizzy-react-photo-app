@@ -1,4 +1,5 @@
 {
+  "homepage": "https://FelixA-GitHub.github.io/fizzy-react-photo-app",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +16,9 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts --openssl-legacy-provider test",
-    "eject": "react-scripts --openssl-legacy-provider eject"
+    "eject": "react-scripts --openssl-legacy-provider eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -37,6 +40,7 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.8.0",
-    "@testing-library/react": "^9.5.0"
+    "@testing-library/react": "^9.5.0",
+    "gh-pages": "^4.0.0"
   }
 }
