@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import Modal from '../Modal';
 
-//this is set to false because we dont want modal to open UNLESS an image is clicked
-
 const PhotoList = ({ category }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentPhoto, setCurrentPhoto] = useState();
-  
+
   const [photos] = useState([
     {
       name: 'Grocery aisle',
@@ -126,16 +124,16 @@ const PhotoList = ({ category }) => {
 
   const currentPhotos = photos.filter(photo => photo.category === category);
 
-  //create toggleModal function to be invoked elsewhere
   const toggleModal = (image, i) => {
-    // current photo. the spread operator here is used to add the index: i key value pair to the current photo state
-    setCurrentPhoto({ ...image, index: i })
+    setCurrentPhoto({ ...image, index: i });
     setIsModalOpen(!isModalOpen);
-  }
+  };
 
   return (
     <div>
-    {isModalOpen && <Modal onClose={toggleModal} currentPhoto={currentPhoto} />} {/*this invokes the Modal */}
+      {isModalOpen && (
+        <Modal onClose={toggleModal} currentPhoto={currentPhoto} />
+      )}
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
           <img
